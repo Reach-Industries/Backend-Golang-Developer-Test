@@ -47,22 +47,43 @@ This task is designed to challenge your skills in backend development, focusing 
 
 # Setup & Environment
 
-***Guidance Text: Detail any setup steps, required software, or specific environment configurations necessary to undertake the test. If there are any dependencies to be installed or initial steps to be taken before the task, mention them here.***
+- **Languages**: Golang
+- **Technologies**: Docker, Kafka
 
 # Deliverables & How to submit
 
-***Guidance Text: Define clearly what the candidate should submit at the end of the test. For instance, do they need to submit code, a report, a presentation, or all of the above? Additionally, provide a clear procedure on how they should submit their work. This could be via a pull request, email, a specific platform, etc.***
+- Code uploaded to GitHub (either as a public repo or private repo).
+- Ensure all components.
+- The repo should be easily runnable or buildable without additional intervention from the evaluators.
+- Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and the clarity of your explanation in this section are critical.
 
 # Evaluation Criteria
 
-***Guidance Text: Explain how you will be evaluating their submissions. What are the key criteria or metrics you will be looking at? This helps the candidate focus on what's essential for the test.***
+You will be marked on:
+- Your code quality.
+- Your project organisation.
+- The efficiency of your approach to providing a solution.
+- The rationale you provide for the approach you have taken (in comments or in supporting documents).
 
 # FAQ
-## 1.
+## 1. Do I need to set up any specific environment or version of Golang and Docker for this assessment?
+- No, as long as you include version numbers and it builds. (Golang is already installed in the provided container
 
-## 2. 
+## 2. Does the JWT need to be a real secret
+- No this can be any string, but please provide it in the documentation for testing. 
 
-## 3.
+## 3. Can I use libraries or packages to complete technical parts of the test?
+- Absolutely. Please approach this test in the same way you would approach a standard piece of work. As stated previously, the only stipulation is you must use Golang and the provide docker container.
+
+## 4. What should I do if I'm taking longer than 4-5 hours to complete the test?
+
+We understand that the scope of this test might require more time than initially anticipated. If you find yourself exceeding the 4-5 hour mark, you have two options:
+
+#### Option 1: Continue Until the Deadline
+If you feel that you can complete the test within the allotted deadline, you are encouraged to continue. The comprehensive completion of tasks is appreciated and can be indicative of your dedication and thorough approach.
+
+#### Option 2: Summarize Remaining Work
+If completing the test is not feasible within the deadline, we value a summary of how you would have proceeded. Please include
 
 # Troubleshooting & Support
 Test@Reach.Industries?
