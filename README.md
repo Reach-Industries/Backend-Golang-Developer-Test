@@ -68,7 +68,7 @@ You will be marked on:
 - No this can be any string, but please provide it in the documentation for testing. 
 
 ## 3. Can I use libraries or packages to complete technical parts of the test?
-- Absolutely. Please approach this test in the same way you would approach a standard piece of work. As stated previously, the only stipulation is you must use Golang and the provide docker container.
+- Absolutely. Please approach this test in the same way you would approach a standard piece of work. As stated previously, the only stipulation is you must use Golang and the provided docker container.
 
 ## 4. What should I do if I'm taking longer than 4-5 hours to complete the test?
 
@@ -79,6 +79,16 @@ If you feel that you can complete the test within the allotted deadline, you are
 
 #### Option 2: Summarize Remaining Work
 If completing the test is not feasible within the deadline, we value a summary of how you would have proceeded. Please include
+
+- **Detailed Plan**: Outline the steps you would take to complete the remaining tasks.
+- **Methods and Tools**: Describe the methods and tools you would employ to tackle the remaining challenges.
+- **Time Estimation**: Provide an estimated timeline for these tasks.
+- **Potential Challenges**: Anticipate any potential challenges or roadblocks you might encounter and how you would address them.
+- **Final Objectives**: Clarify the objectives you would aim to achieve with the completed work.
+
+This approach allows us to understand your problem-solving process, planning skills, and how you manage time and priorities. It also gives us insight into your technical knowledge and approach to unforeseen challenges.
+
+Remember, the quality of your work and the thought process behind it are more critical than the quantity. We are looking for insights into your approach and decision-making process, which can be effectively demonstrated through either a completed test or a well-articulated plan for unfinished parts.
 
 # Troubleshooting & Support
 Test@Reach.Industries?
