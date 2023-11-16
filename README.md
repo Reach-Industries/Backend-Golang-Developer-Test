@@ -14,7 +14,36 @@ This assessment focuses on developing a Golang-based backend service, primarily 
 
 # Task
 
-***Guidance Text: Clearly describe the specific task(s) the candidate needs to complete. This section should contain all the necessary details, requirements, and any assumptions you want the candidate to make. Ensure to be as precise as possible to avoid misunderstandings.***
+## Task Description
+
+Your objective is to create a Golang service that implements a multifunctional counter, demonstrating proficiency in data streaming and message handling using Kafka. This service involves several key components and modes of operation, each responding dynamically to Kafka messages.
+
+### Core Features
+1. **Counter Functionality**: The service should include a continuously incrementing counter, increasing by one every second.
+
+2. **Kafka Message Handling**: It must listen to a Kafka message topic named "switch". The messages received on this topic will dictate the service's operation mode. The possible messages are:
+   - `Counter`
+   - `Time`
+   - `Text`
+   - `Dump`
+
+3. **Dynamic Response Modes**:
+   - **Counter Mode**: Initially, the service operates in this mode, outputting the current value of the counter to another Kafka topic every 3 seconds.
+   - **Time Mode**: Upon receiving a "Time" message, the service switches to outputting the current system time every 3 seconds.
+   - **Text Mode**: Receiving a "Text" message triggers the service to generate and output a random text string (16 characters) every 3 seconds.
+   - **Dump Mode**: The "Dump" message prompts the service to compile all previously generated outputs into a file, timestamped and organized.
+
+4. **Endpoint for Data Retrieval**: The service should also offer a RESTful endpoint (`/getDump`) that allows for retrieval of the saved dump file. The data should be returned as a JSON response.
+
+### Message Format
+- The Kafka messages follow this structure: `{"org": "2", "msg": "Counter"}`. The `org` field will be used in the bonus task.
+
+### Bonus Tasks (only if you have time)
+- **Enhanced Organizational Output**: Modify the service to handle separate output threads for each organization ID (`org`) received in the Kafka messages. This requires the service to initiate an output thread for a specific `org` upon receiving its first message.
+- **Secured Data Access**: Implement JWT authentication for the `/getDump` endpoint. Validate the incoming requests using a JWT secret, and modify the endpoint to return the appropriate dump file based on the `org` claim within the JWT. (Note: The JWT secret should be communicated separately for testing purposes.)
+
+This task is designed to challenge your skills in backend development, focusing on real-time data processing and adaptive system behavior. Your solution should not only meet the functional requirements but also exhibit clean, efficient, and maintainable code practices.
+
 
 # Setup & Environment
 
