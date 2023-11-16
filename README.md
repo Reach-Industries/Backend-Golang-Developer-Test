@@ -6,7 +6,11 @@
 
 # Test Introduction
 
-***Guidance Text: Here, provide a brief overview of the context and background for the test. What is the main objective of this test? Why is it important for the role in question? Set the scene for the candidate so they can understand the larger picture.***
+At Reach Industries, we are building innovative products that leverage high-volume data streaming and cloud based AI. Our LabEye camera systems are specifically designed for lab environments where precision and detail are paramount. Our customers seamlessly integrate LabEyes into their setups to capture high-quality visual data. This raw data is then securely transmitted to Lumi, our advanced cloud-based platform.
+
+Lumi harnesses the power of state-of-the-art algorithms to process this data, converting the visual inputs into actionable quantitative values. One of the standout features of our system is its ability to overlay the derived data directly onto the original video in real-time. This not only allows researchers and lab technicians to see the data but also to interactively visualize the insights and patterns that Lumi has discerned, enhancing their understanding and decision-making processes.
+
+This assessment focuses on developing a Golang-based backend service, primarily handling and responding to high-volume data streams through Kafka. Your task is to architect and implement a solution that not only meets the immediate requirements but is also structured for future enhancements and team collaboration. Although your code won't be integrated into a live system, it's essential to approach this task with an eye towards long-term maintainability and scalability. Consider your design and coding choices as foundational elements that could be built upon and refined in a collaborative, evolving development environment.
 
 # Task
 
