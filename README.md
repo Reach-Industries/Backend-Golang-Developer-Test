@@ -48,6 +48,7 @@ This task is designed to challenge your skills in backend development, focusing 
 # Setup & Environment
 
 - **Languages**: Golang
+- **Container** https://github.com/Reach-Industries/Backend-Golang-Developer-Test/tree/main/Test-Source
 - **Technologies**: Docker, Kafka
 
 # Deliverables & How to submit
