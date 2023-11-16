@@ -1,9 +1,3 @@
-<p align="center">
-<img src=https://via.placeholder.com/150/>
-</p>
-
-***Replace any content text in bold.***
-
 # Test Introduction
 
 At Reach Industries, we are building innovative products that leverage high-volume data streaming and cloud based AI. Our LabEye camera systems are specifically designed for lab environments where precision and detail are paramount. Our customers seamlessly integrate LabEyes into their setups to capture high-quality visual data. This raw data is then securely transmitted to Lumi, our advanced cloud-based platform.
