@@ -1,14 +1,14 @@
 # Setting Up the Test Environment
 
 ## Clone the Repository
-- First, clone the repository from [Reach Industries Backend Test](https://github.com/Reach-Industries/backendtest.git) to your local machine.
+- First, clone the repository from [Reach Industries Backend Test](https://github.com/Reach-Industries/Backend-Golang-Developer-Test.git) to your local machine.
 - Use the command: `git clone https://github.com/Reach-Industries/backendtest.git`
 
 ## Navigate to the Project Directory
-- After cloning, navigate to the project directory: `cd backendtest`
+- After cloning, navigate to the project directory: `cd Backend-Golang-Developer-Test`
 
 ## Build the Switcher Service
-- Inside the repository, you'll find a `switcher` folder. This contains the Dockerfile necessary to build the switcher image.
+- Inside the repository, you'll find a `Test-Source/switcher` folder. This contains the Dockerfile necessary to build the switcher image.
 - Navigate to the switcher directory: `cd switcher`
 - Build the Docker image for the switcher service using: `docker build -t switcher-service .`
   - Ensure that Docker is running on your machine before executing this command.
