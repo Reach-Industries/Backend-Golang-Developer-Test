@@ -48,7 +48,6 @@ This task is designed to challenge your skills in backend development, focusing 
 # Deliverables & How to submit
 
 - Code uploaded to GitHub (either as a public repo or private repo).
-- Ensure all components.
 - The repo should be easily runnable or buildable without additional intervention from the evaluators.
 - Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and the clarity of your explanation in this section are critical.
 
@@ -91,7 +90,7 @@ This approach allows us to understand your problem-solving process, planning ski
 Remember, the quality of your work and the thought process behind it are more critical than the quantity. We are looking for insights into your approach and decision-making process, which can be effectively demonstrated through either a completed test or a well-articulated plan for unfinished parts.
 
 # Troubleshooting & Support
-Test@Reach.Industries?
+Test@Reach.Industries
 
 # Terms & Conditions for Interview Tests
 
